@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(200, 238, 238);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    border-radius: 5px;
+    border: 2px solid grey;
+    width: 25vw;
+    padding-bottom: 10px;
+}
+
+#screen {
+    border-radius: 5px;
+    border: 2px solid grey;
+    height: 78px;
+    width: 350px;
+    margin: 12px 6px 14px 13px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(186 232 239);
+    font-size: 2em;
+    border: 1.5px solid grey;
+    height: 50px;
+    width: 93px;
+    margin: 2px;
+}
